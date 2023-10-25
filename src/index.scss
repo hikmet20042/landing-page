@@ -1,444 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("./styles/hero.scss");
+@import url("./styles/aboutus.scss");
+@import url("./styles/keyfeatures.scss");
+@import url("./styles/ourwork.scss");
+@import url("./styles/gallery.scss");
+@import url("./styles/brochure.scss");
 
 * {
   padding: 0;
   margin: 0;
 }
-
-.hero {
-  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
-  .circle {
-    height: 150px;
-    width: 150px;
-    background-color: #fff;
-    border-radius: 100%;
-    border: 40px #f9c2cc solid;
-    position: absolute;
-
-    z-index: -99;
-  }
-  .circle-1 {
-    top: -90px;
-    left: -80px;
-  }
-  .circle-2 {
-    top: 380px;
-    left: 520px;
-  }
-  nav {
-    margin-top: 10px;
-
-    display: flex;
-    color: gray;
-    justify-content: space-around;
-    font-size: 20px;
-    background-color: white;
-    height: 50px;
-    .hamburger {
-      display: flex;
-      align-items: center;
-      img {
-        height: 20px;
-        width: 20px;
-        margin-right: 10px;
-      }
-    }
-    .logo {
-      img {
-        height: 50px;
-        width: 50px;
-      }
-    }
-    .contact {
-      display: flex;
-      align-items: center;
-      font-size: 20px;
-    }
-  }
-  .welcome {
-    font-family: "Forum", serif;
-    display: flex;
-    .quote {
-      position: absolute;
-      top: 200px;
-      left: 250px;
-      h4 {
-        color: #eb3656;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-      }
-      h1 {
-        font-size: 44px;
-        max-width: 450px;
-        span {
-          color: #eb3656;
-        }
-      }
-      p {
-        text-transform: uppercase;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 10px;
-        font-weight: bold;
-        letter-spacing: 0.1px;
-        color: #eb3656;
-        margin-left: 60px;
-        margin-top: 10px;
-        &::before {
-          content: "";
-          height: 2px;
-          width: 50px;
-          display: block;
-          background-color: #eb3656;
-          position: absolute;
-          bottom: 5px;
-          left: 0;
-        }
-      }
-    }
-    .welcome-image {
-      margin-left: auto;
-      img {
-        height: 500px;
-      }
-    }
-  }
+html{
+  scroll-behavior: smooth;
 }
 
-.about-us {
-  margin-top: 150px;
-  // padding:0 200px;
-  display: flex;
-  justify-content: center;
-  .right-side {
-    padding-left: 100px;
-    width: 550px;
-    position: relative;
-    .images {
-      height: 250px;
-    }
-    .image02 {
-      position: absolute;
-      left: 300px;
-      top: 150px;
-    }
-    .experience {
-      font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
-      font-weight: bold;
-      text-transform: uppercase;
-      background-color: #eb3656;
-      color: #fff;
-      font-size: 10px;
-      z-index: 9999;
-      position: absolute;
-      padding: 5px 20px;
-      border: 5px solid white;
-      left: 250px;
-      top: 230px;
-      span {
-        font-size: 22px;
-      }
-    }
+@keyframes slide-down{
+  0%{
+    transform: translateY(-100px);
   }
-
-  .left-side {
-    width: 500px;
-    .heading {
-      font-family: "Forum", serif;
-      text-transform: uppercase;
-      h4 {
-        color: #eb3656;
-        padding-bottom: 5px;
-      }
-    }
-    .text-content {
-      color: gray;
-      padding-right: 50px;
-      p {
-        padding: 10px 0;
-      }
-    }
-    .learn-more {
-      margin-top: 20px;
-      a {
-        font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #fff;
-        background-color: #eb3656;
-        font-size: 14px;
-        padding: 8px 20px;
-      }
-    }
-  }
-}
-
-.key-features {
-  margin-top: 100px;
-  padding: 50px 300px 150px;
-  .heading {
-    margin-bottom: 50px;
-    h1 {
-      font-family: "Forum", sans-serif;
-      font-size: 70px;
-      text-transform: uppercase;
-      text-align: center;
-      color: #eec8aa;
-      font-weight: 200;
-    }
-  }
-  .features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    gap: 50px;
-    .feature {
-      font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
-      text-transform: uppercase;
-      width: 100px;
-      font-size: 14px;
-      letter-spacing: 0.1px;
-      text-align: center;
-      img {
-        height: 70px;
-      }
-    }
-  }
-}
-
-.our-work {
-  background-color: #ed7f69;
-  padding: 30px 120px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
-  .heading {
-    h4 {
-      text-transform: uppercase;
-      color: #662d91;
-      font-weight: 400;
-      margin-bottom: 20px;
-      font-size: 20px;
-    }
-    h1 {
-      color: rgba(255, 255, 255, 0.9);
-      font-size: 55px;
-      padding-right: 600px;
-    }
-  }
-  .persons {
-    margin-top: 100px;
-    padding: 0 40px;
-    .frame {
-      height: 715px;
-      width: 540px;
-      border: 10px solid white;
-      position: absolute;
-      z-index: -1;
-    }
-    .person {
-      margin-bottom: 200px;
-    }
-    .person:nth-of-type(odd) {
-      display: flex;
-      .left-side {
-        position: relative;
-        z-index: 99;
-
-        .frame-1 {
-          top: 50px;
-          left: 70px;
-          z-index: -1;
-        }
-      }
-      .right-side {
-        margin-left: 150px;
-        .number {
-          color: #662d91;
-          font-size: 24px;
-          font-weight: bold;
-          margin-bottom: 50px;
-        }
-        .full-name {
-          color: rgba(255, 255, 255, 0.9);
-          font-size: 60px;
-          font-weight: bold;
-          letter-spacing: 0.1px;
-          margin-bottom: 50px;
-        }
-        .text-content {
-          color: rgba(255, 255, 255, 0.9);
-          font-size: 15px;
-          margin-bottom: 150px;
-          p {
-            margin: 5px 0;
-            line-height: 1.4;
-          }
-        }
-        .social-media {
-          ul {
-            list-style-type: none;
-            display: flex;
-            li {
-              padding-right: 10px;
-              svg {
-                fill: #662d91;
-                &:hover {
-                  opacity: 0.4;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    .person:nth-of-type(even) {
-      display: flex;
-      .right-side {
-        position: relative;
-        z-index: 99;
-
-        .frame-1 {
-          top: 50px;
-          right: 70px;
-          z-index: -1;
-        }
-      }
-      .left-side {
-        margin-right: 150px;
-        .number {
-          color: #662d91;
-          font-size: 24px;
-          font-weight: bold;
-          margin-bottom: 50px;
-        }
-        .full-name {
-          color: rgba(255, 255, 255, 0.9);
-          font-size: 60px;
-          font-weight: bold;
-          letter-spacing: 0.1px;
-          margin-bottom: 50px;
-        }
-        .text-content {
-          color: rgba(255, 255, 255, 0.9);
-          font-size: 15px;
-          margin-bottom: 150px;
-          p {
-            margin: 5px 0;
-            line-height: 1.4;
-          }
-        }
-        .social-media {
-          ul {
-            list-style-type: none;
-            display: flex;
-            li {
-              padding-right: 10px;
-              svg {
-                fill: #662d91;
-                &:hover {
-                  opacity: 0.4;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-.gallery {
-  overflow: hidden;
-  .heading {
-    h1 {
-      font-family: "Forum", sans-serif;
-      font-size: 70px;
-      text-transform: uppercase;
-      text-align: center;
-      color: #eec8aa;
-      font-weight: 200;
-    }
-  }
-  .images-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 300px);
-    gap: 2rem;
-  }
-}
-
-.brochure {
-  padding: 100px;
-  background-color: #eec8aa;
-  position: relative;
-  z-index: 99;
-  overflow: hidden;
-  height: 60vh;
-  .heading {
-    h1 {
-      font-size: 48px;
-      font-family: "Forum", serif;
-      color: #fff;
-      font-weight: 400;
-    }
-    ul {
-      list-style: none;
-      display: grid;
-      max-width: 400px;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 30px;
-      font-size: 22px;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      color: white;
-      margin-left: 100px;
-      margin-top: 30px;
-      li {
-        display: flex;
-        align-items: center;
-        img {
-          height: 18px;
-        }
-      }
-    }
-  }
-  .catalog {
-    position: absolute;
+  100%{
     top: 0;
-    right: -500px;
-    width: 1300px;
-    z-index: -1;
-  }
-  form {
-    background-color: white;
-    width: 300px;
-    padding: 20px 50px;
-    margin-top: 70px;
-    h1 {
-      text-transform: uppercase;
-      font-family: "Forum", serif;
-      padding: 10px;
-      text-align: center;
-    }
-    input {
-      border: 0;
-      outline: 1px rgb(156, 155, 155) solid;
-      padding: 7px 15px;
-      width: 270px;
-      margin-bottom: 8px;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      &::placeholder {
-        font-size: 14px;
-      }
-    }
-    button {
-      width: 100%;
-      padding: 10px;
-      font-size: 14px;
-      border: 0;
-
-      background: linear-gradient(180deg, #eec8aa, #c7825b, #eec8aa, #c7825b);
-      background-size: 100% 400%;
-      -webkit-transition: background-position 1.6s cubic-bezier(0.4, 0, 0, 1);
-      transition: background-position 1.6s cubic-bezier(0.4, 0, 0, 1);
-      color: #fff;
-    }
   }
 }
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left{
+  0%{
+    transform: translateX(700px);
+
+  }
+  100%{
+    transform: translateX(0);
+    
+  }
+}
+@keyframes slide-right{
+  0%{
+    transform: translateX(-300px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@media(prefers-reduced-motion: "no preference"){
+:root {
+  scroll-behavior: smooth;
+}}

@@ -1,0 +1,30 @@
+.gallery {
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-drag: none;
+    .heading {
+      margin: 20px 10px;
+      h1 {
+        font-family: "Forum", sans-serif;
+        font-size: 70px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #eec8aa;
+        font-weight: 200;
+      }
+    }
+    .images-grid{
+      display: flex;
+      animation: continous-slide 40s infinite linear both;
+      
+    }
+    @keyframes continous-slide {
+      50%{
+        transform: translateX(-2100px);
+      }
+      100%{
+      transform: translateX(0px) ;
+      }
+    }
+  }
+  

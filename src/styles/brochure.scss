@@ -1,0 +1,78 @@
+.brochure {
+    padding: 100px;
+    background-color: #eec8aa;
+    position: relative;
+    z-index: 99;
+    overflow: hidden;
+    height: 60vh;
+    .heading {
+      h1 {
+        font-size: 48px;
+        font-family: "Forum", serif;
+        color: #fff;
+        font-weight: 400;
+      }
+      ul {
+        list-style: none;
+        display: grid;
+        max-width: 400px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        font-size: 22px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin-left: 100px;
+        margin-top: 30px;
+        li {
+          display: flex;
+          align-items: center;
+          img {
+            height: 18px;
+          }
+        }
+      }
+    }
+    .catalog {
+      position: absolute;
+      top: 0;
+      right: -500px;
+      width: 1300px;
+      z-index: -1;
+    }
+    form {
+      background-color: white;
+      width: 300px;
+      padding: 20px 50px;
+      margin-top: 70px;
+      h1 {
+        text-transform: uppercase;
+        font-family: "Forum", serif;
+        padding: 10px;
+        text-align: center;
+      }
+      input {
+        border: 0;
+        outline: 1px rgb(156, 155, 155) solid;
+        padding: 7px 15px;
+        width: 270px;
+        margin-bottom: 8px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        &::placeholder {
+          font-size: 14px;
+        }
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 0;
+  
+        background: linear-gradient(180deg, #eec8aa, #c7825b, #eec8aa, #c7825b);
+        background-size: 100% 400%;
+        -webkit-transition: background-position 1.6s cubic-bezier(0.4, 0, 0, 1);
+        transition: background-position 1.6s cubic-bezier(0.4, 0, 0, 1);
+        color: #fff;
+      }
+    }
+    
+  }
