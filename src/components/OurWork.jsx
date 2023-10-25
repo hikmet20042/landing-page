@@ -10,7 +10,7 @@ function OurWork(){
         <div className="persons">
           <div className="person person-1">
             <div className="left-side">
-              <motion.img src="src\assets\portfolio_01.jpg" initial={{x:300}} whileInView = {{x:0}} transition={{duration:"2"}} />
+              <motion.img src="https://lh3.googleusercontent.com/pw/ADCreHdbtOl52NZSFdmd3FgnRSy_L3N6j9VJgybxDw22ofbKb9A9q61eCqQapMV3TqlyU7b5tKNxVILqGzfKklDsn8AHhp68GOcdxLbQSgr_I1IrXdJXD9tJudxqjjHBXDPQk3Nw_eTLjtYNJgq1F-9-r8hRqXlxpsAz2bzi9Fk-sSdWKwfa1KELqyK7Ihd6ha4kuljpB0tujagNVpNy4V_VyUqzutael7QP1N-42DyEVsTWOZWW_kZs7VVa7b0F9zGGgUh3hY4BCbUSS4IaFf3lAWqiSFa7hYF9hO2jNkxlh0DhZeK7l_Rc8uBNkfO4IGcH781WCmHGsQDjBXXm2U4dlHosMsbyJxpXlBZzNDAGp_Le-bQKhrIskcuz0QfIcgg6F0DhVmvIe7vocyGf8C0B5790bIUCW-oBqC_4Df55jDEju6LSBFIZMmPvZu8OmwojtiDqQEM6SDMKLJAYwlFPLGfwyXfkSAOJ1Y_galFqnJm6lFTT0F6q9i3YtwvoUbTa_eBNcBSwWoO0Qag4hgL9GN90GsqNtAJbJkovXOSC8HUO9Q-lTa9VGSAXBjqiFEwy8UgDSLHUOQ6R5GFaH7g1_n5P__57FpJU9_EuwJO9KMG3X4uEk5bmh3JubiSZ-qydtUY5FsTYeeei7gLfTcbZGdmnwbYTDw1Ngpv2tK-MX_R-Z1IWZEWSy0fTxa-MbhLqar5Ha93sRWV9d49h4SpVmnS1cZOUH6dwHAQRGGd2WBauvvE_0IHoA9TwoJUUDYV9R72hnWxqafepSVAVUe0lugYhrZqyDSlEKeQW1NAMJQa-SObqsSRPYxO1aPmpt3l4xtnq1__0q_4RbLCB_xHy8s_0yWira3wQw9snA6PEq5nQ2TZ19Xa8x4Vh4tcXhhwQ91KZwPZISGXsrz-_l_ccqVCLQ9SHsLny9RuxipUywktchWW8zleRzC20icdmlNbPMYX9G3TMCcIveNUtsweUjplk9cEK-cNEPjfl=w525-h689-s-no?authuser=0" initial={{x:300}} whileInView = {{x:0}} transition={{duration:"2"}} />
               <div className="frame frame-1"></div>
             </div>
             <div className="right-side">
@@ -99,13 +99,13 @@ function OurWork(){
               </div>
             </div>
             <div className="right-side">
-              <motion.img initial={{x:-300}} whileInView = {{x:0}} transition={{duration:"2"}}  src="src\assets\portfolio_01.jpg" />
+              <motion.img initial={{x:-300}} whileInView = {{x:0}} transition={{duration:"2"}}  src="https://lh3.googleusercontent.com/pw/ADCreHdbtOl52NZSFdmd3FgnRSy_L3N6j9VJgybxDw22ofbKb9A9q61eCqQapMV3TqlyU7b5tKNxVILqGzfKklDsn8AHhp68GOcdxLbQSgr_I1IrXdJXD9tJudxqjjHBXDPQk3Nw_eTLjtYNJgq1F-9-r8hRqXlxpsAz2bzi9Fk-sSdWKwfa1KELqyK7Ihd6ha4kuljpB0tujagNVpNy4V_VyUqzutael7QP1N-42DyEVsTWOZWW_kZs7VVa7b0F9zGGgUh3hY4BCbUSS4IaFf3lAWqiSFa7hYF9hO2jNkxlh0DhZeK7l_Rc8uBNkfO4IGcH781WCmHGsQDjBXXm2U4dlHosMsbyJxpXlBZzNDAGp_Le-bQKhrIskcuz0QfIcgg6F0DhVmvIe7vocyGf8C0B5790bIUCW-oBqC_4Df55jDEju6LSBFIZMmPvZu8OmwojtiDqQEM6SDMKLJAYwlFPLGfwyXfkSAOJ1Y_galFqnJm6lFTT0F6q9i3YtwvoUbTa_eBNcBSwWoO0Qag4hgL9GN90GsqNtAJbJkovXOSC8HUO9Q-lTa9VGSAXBjqiFEwy8UgDSLHUOQ6R5GFaH7g1_n5P__57FpJU9_EuwJO9KMG3X4uEk5bmh3JubiSZ-qydtUY5FsTYeeei7gLfTcbZGdmnwbYTDw1Ngpv2tK-MX_R-Z1IWZEWSy0fTxa-MbhLqar5Ha93sRWV9d49h4SpVmnS1cZOUH6dwHAQRGGd2WBauvvE_0IHoA9TwoJUUDYV9R72hnWxqafepSVAVUe0lugYhrZqyDSlEKeQW1NAMJQa-SObqsSRPYxO1aPmpt3l4xtnq1__0q_4RbLCB_xHy8s_0yWira3wQw9snA6PEq5nQ2TZ19Xa8x4Vh4tcXhhwQ91KZwPZISGXsrz-_l_ccqVCLQ9SHsLny9RuxipUywktchWW8zleRzC20icdmlNbPMYX9G3TMCcIveNUtsweUjplk9cEK-cNEPjfl=w525-h689-s-no?authuser=0" />
               <div className="frame frame-1"></div>
             </div>
           </div>
           <div className="person person-3">
             <div className="left-side">
-              <motion.img src="src\assets\portfolio_01.jpg" initial={{x:300}} whileInView = {{x:0}} transition={{duration:"2"}} />
+              <motion.img src="https://lh3.googleusercontent.com/pw/ADCreHdbtOl52NZSFdmd3FgnRSy_L3N6j9VJgybxDw22ofbKb9A9q61eCqQapMV3TqlyU7b5tKNxVILqGzfKklDsn8AHhp68GOcdxLbQSgr_I1IrXdJXD9tJudxqjjHBXDPQk3Nw_eTLjtYNJgq1F-9-r8hRqXlxpsAz2bzi9Fk-sSdWKwfa1KELqyK7Ihd6ha4kuljpB0tujagNVpNy4V_VyUqzutael7QP1N-42DyEVsTWOZWW_kZs7VVa7b0F9zGGgUh3hY4BCbUSS4IaFf3lAWqiSFa7hYF9hO2jNkxlh0DhZeK7l_Rc8uBNkfO4IGcH781WCmHGsQDjBXXm2U4dlHosMsbyJxpXlBZzNDAGp_Le-bQKhrIskcuz0QfIcgg6F0DhVmvIe7vocyGf8C0B5790bIUCW-oBqC_4Df55jDEju6LSBFIZMmPvZu8OmwojtiDqQEM6SDMKLJAYwlFPLGfwyXfkSAOJ1Y_galFqnJm6lFTT0F6q9i3YtwvoUbTa_eBNcBSwWoO0Qag4hgL9GN90GsqNtAJbJkovXOSC8HUO9Q-lTa9VGSAXBjqiFEwy8UgDSLHUOQ6R5GFaH7g1_n5P__57FpJU9_EuwJO9KMG3X4uEk5bmh3JubiSZ-qydtUY5FsTYeeei7gLfTcbZGdmnwbYTDw1Ngpv2tK-MX_R-Z1IWZEWSy0fTxa-MbhLqar5Ha93sRWV9d49h4SpVmnS1cZOUH6dwHAQRGGd2WBauvvE_0IHoA9TwoJUUDYV9R72hnWxqafepSVAVUe0lugYhrZqyDSlEKeQW1NAMJQa-SObqsSRPYxO1aPmpt3l4xtnq1__0q_4RbLCB_xHy8s_0yWira3wQw9snA6PEq5nQ2TZ19Xa8x4Vh4tcXhhwQ91KZwPZISGXsrz-_l_ccqVCLQ9SHsLny9RuxipUywktchWW8zleRzC20icdmlNbPMYX9G3TMCcIveNUtsweUjplk9cEK-cNEPjfl=w525-h689-s-no?authuser=0" initial={{x:300}} whileInView = {{x:0}} transition={{duration:"2"}} />
               <div className="frame frame-1"></div>
             </div>
             <div className="right-side">
