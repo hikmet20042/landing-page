@@ -4,10 +4,13 @@ import KeyFeatures from "./components/KeyFeatures";
 import OurWork from "./components/OurWork";
 import Gallery from "./components/Gallery";
 import Brochure from "./components/Brochure";
+import Popup from 'reactjs-popup';
 
 function App() {
   return (
     <>
+      
+
       <Hero/>
       <AboutUs />
       <KeyFeatures/>

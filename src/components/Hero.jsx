@@ -1,6 +1,9 @@
 import {motion} from "framer-motion";
+import { useState } from "react";
 
 function Hero(){
+  const [number,setNumber] = useState("XXX-XX-XX");
+  
     return (
         <div className="hero">
         <div className="circle circle-1"></div>
@@ -13,7 +16,7 @@ function Hero(){
           <div className="logo">
             <img src="https://icecube-eu-307.icedrive.io/download?p=HsE.Avkgho139bzq5c6mYOu3jX21mTSgptDX2GVoQc28rYaZMfIpsTZaVFarBXkoGUx7sKuXuBvnN0o3.i0uLUrjRLoJG.Iccg8Bw1mvE0q.dA34kNreGYfjhilvY6u05corD6Il3jOh3oMmZB1xP2lhgnPi5AF2EO8ZsYhouxbm9pfTzXqRRKmtc13tindiJg3CirLcb36y_t1MWvLbDw--" alt="logo" />
           </div>
-          <div className="contact">+99455-555-55-55 </div>
+          <div className="contact"><div>+99455-{number}</div> <span onClick={()=>setNumber((prevState)=>prevState=="XXX-XX-XX"?"555-55-55":"XXX-XX-XX")}>SHOW</span></div> 
         </nav>
         <section className="welcome">
           <div className="quote">
